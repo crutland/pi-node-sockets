@@ -1,0 +1,16 @@
+FROM resin/%%RESIN_MACHINE_NAME%%-node:8
+
+RUN mkdir -p /usr/src/app/
+
+WORKDIR /usr/src/app
+
+COPY package.json ./
+COPY package-lock.json ./
+
+RUN JOBS=MAX npm install --production --unsafe-perm && npm cache verify && rm -rf /tmp/*
+
+COPY /src/server ./server
+COPY /src/client ./client
+COPY ./resin-start.sh ./
+
+CMD ["./resin-start.sh"]
