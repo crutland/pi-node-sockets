@@ -24,7 +24,8 @@ input.color-picker {
   display: none;
 }
 
-.centered-image {
+.example-image {
   display: block;
   margin: auto;
+  max-width: 500px;
 }
