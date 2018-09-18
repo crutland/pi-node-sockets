@@ -17,7 +17,7 @@
 <body>
     <nav id="nav-top" class="navbar navbar-expand-lg navbar-dark bg-danger">
         <img src="images/shards-logo.svg?1" alt="Example Navbar 1" class="mr-2" height="30">
-        <a class="navbar-brand" href="#">RPi GPIO Examples</a>
+        <a class="navbar-brand" href="#">AIL Resin.io Examples</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown-1"
             aria-controls="navbarNavDropdown-1" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,27 +32,36 @@
             </ul>
         </div>
     </nav>
-    <main id="main">
+    <main id="main" class="container">
 
-        <div class="container">
-            <h1>RPi GPIO Example Devices</h1>
-            <div class="row">
-                <div class="col">
-                    <div class="card card-body">
-                        <h4 class="card-title">billowing-sun</h4>
-                        <h5 class="card-subtile mb-2 text-muted">Raspberry Pi 3 Model B+</h5>
+        <div class="jumbotron mt-2 mb-4">
+            <h1 class="display-4">
+                Resin.io Examples
+            </h1>
+            <p class="lead">
+                This page lists online examples that use Resin.io's platform to demonstrate Amhersts's IoT
+                capabilities.
+            </p>
+        </div>
 
-                        <img src="images/example.png?2" class="example-image">
+        <div class="row">
+            <div class="col">
+                <div class="card card-body">
+                    <h4 class="card-title">Device Name: <em>billowing-sun</em></h4>
+                    <h5 class="card-subtile mb-2 text-muted"><strong>Hardware:</strong> Raspberry Pi 3 Model B+</h5>
 
-                        <div class="text-center">
-                            <a href="https://72de82e5213930ca554a8517fd5f455e.resindevice.io/" class="btn btn-primary btn-pill btn-lg">
-                                Go to Page
-                            </a>
-                        </div>
+                    <img src="images/example.png?2" class="example-image my-4">
+
+                    <div class="text-center">
+                        <a href="https://72de82e5213930ca554a8517fd5f455e.resindevice.io/" class="btn btn-primary btn-pill btn-lg"
+                            target="_blank">
+                            View Example
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- Modal -->
         <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel"
             aria-hidden="true">
@@ -65,7 +74,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        Add App Details Here
+                        Amherst RESIN.IO Example Page
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-outline-primary btn-pill" data-dismiss="modal">Close</button>
