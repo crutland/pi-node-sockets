@@ -13,4 +13,6 @@ COPY /src/server ./server
 COPY /src/client ./client
 COPY ./resin-start.sh ./
 
+RUN chmod +x ./resin-start.sh
+
 CMD ["./resin-start.sh"]
