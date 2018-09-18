@@ -4,7 +4,9 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git resin",
+    "deploy-host": "gh-pages -d host"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +16,10 @@
     "express": "^4.16.3",
     "pi-pins": "^1.0.2",
     "socket.io": "^2.1.1"
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
+  },
+  "homepage": "https://crutland.github.io/pi-node-sockets",
+  "private": true
 }
