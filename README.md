@@ -1,5 +1,5 @@
-#Amherst R-Pi Node Sockets Example
-##Motion Sensing
+# Amherst R-Pi Node Sockets Example
+## Motion Sensing
 
 Runs on the Resin.io platform.
 
