@@ -23,3 +23,8 @@ input.color-picker {
 .hidden {
   display: none;
 }
+
+.centered-image {
+  display: block;
+  margin: auto;
+}
